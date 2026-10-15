@@ -1,0 +1,10 @@
+# Training and data experiments (ddp_equivalence, nccl_smoke, scaling, sampler_checks, sync_windows, fusion), with the
+# versions the results were produced with. CUDA 12.4 wheels run on A100 and H100 GPUs.
+#   python3.11 -m venv .venv && source .venv/bin/activate
+#   pip install -r requirements/train.txt && pip install --no-deps -e .
+--extra-index-url https://download.pytorch.org/whl/cu124
+torch==2.4.1
+numpy==1.26.4
+av==12.3.0
+matplotlib
+pytest

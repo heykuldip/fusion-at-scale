@@ -1,0 +1,8 @@
+# Installed with --no-deps: resolving these pulls in TensorRT's CUDA 13 build next to the CUDA 12 one, and both install
+# a module named tensorrt. "pip check" then reports that tensorrt 10.13.3.9 requires tensorrt-cu13.
+torch-tensorrt==2.9.0
+tensorrt==10.13.3.9
+tensorrt-cu12==10.13.3.9
+tensorrt-cu12-bindings==10.13.3.9
+tensorrt-cu12-libs==10.13.3.9
+dllist==2.0.0

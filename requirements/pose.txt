@@ -1,0 +1,9 @@
+# Pose and inference experiments (pose_throughput, inference_latency). Installed by environment/create_pose_env.sh,
+# which also adds FFmpeg 7.1 for TorchCodec and TensorRT's packages (requirements/tensorrt.txt).
+--extra-index-url https://download.pytorch.org/whl/cu128
+torch==2.9.1
+torchvision==0.24.1
+torchcodec==0.9.1
+nvidia-npp-cu12==12.3.3.100
+numpy
+pytest

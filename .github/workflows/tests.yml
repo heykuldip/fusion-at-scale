@@ -1,0 +1,19 @@
+name: tests
+on: [push, pull_request]
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install
+        run: |
+          pip install --index-url https://download.pytorch.org/whl/cpu torch==2.4.1
+          pip install numpy==1.26.4 av==12.3.0 pytest ruff
+          pip install --no-deps -e .
+      - name: Lint
+        run: ruff check .
+      - name: Tests, including the distributed checks on CPU processes
+        run: python -m pytest -m "not gpu"

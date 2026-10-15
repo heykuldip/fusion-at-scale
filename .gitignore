@@ -1,0 +1,10 @@
+__pycache__/
+*.egg-info/
+/.venv/
+/.pose-env/
+/data/
+/results/
+/logs/*
+!/logs/.gitkeep
+.pytest_cache/
+.ruff_cache/
