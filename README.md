@@ -1,7 +1,7 @@
 # fusion-at-scale
 
+[![tests](https://github.com/heykuldip/fusion-at-scale/actions/workflows/tests.yml/badge.svg)](https://github.com/heykuldip/fusion-at-scale/actions/workflows/tests.yml)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23426215.svg)](https://doi.org/10.5281/zenodo.23426215)
-![tests](https://github.com/heykuldip/fusion-at-scale/actions/workflows/tests.yml/badge.svg)
 
 Measured checks for training and running activity-recognition models on synchronized video and wearable-sensor data
 across GPUs: whether distributed training is correct and how it scales, how the data are synchronized and loaded, how
