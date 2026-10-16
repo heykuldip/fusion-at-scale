@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "fusion-at-scale"
+abstract: "Distributed training and inference checks for video and wearable-sensor (IMU) fusion across GPUs."
+type: software
+authors:
+  - family-names: Atwal
+    given-names: Kuldip Singh
+    orcid: "https://orcid.org/0000-0002-9483-4668"
+license: GPL-3.0-only
+repository-code: "https://github.com/heykuldip/fusion-at-scale"
+doi: 10.5281/zenodo.23426215
+keywords:
+  - pytorch
+  - distributed-training
+  - hpc
+  - slurm
+  - sensor-fusion
+  - pose-estimation
