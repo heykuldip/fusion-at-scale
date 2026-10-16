@@ -1,3 +1,4 @@
+![tests](https://github.com/heykuldip/fusion-at-scale/actions/workflows/tests.yml/badge.svg)
 # fusion-at-scale
 
 Measured checks for training and running activity-recognition models on synchronized video and wearable-sensor data
