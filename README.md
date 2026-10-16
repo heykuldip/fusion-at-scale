@@ -19,8 +19,8 @@ public VIDIMU dataset; the runs used NVIDIA A100 and H100 GPUs.
 ## Findings
 
 - **DDP equivalence.** After one step on 2, 4 or 8 GPUs, every parameter matched the single-GPU step to within 2^-27
-  (about 7.5e-9, at the level of fp32 rounding), on three GPU types. A deliberately wrong version that sums the
-  processes' losses instead of averaging them failed the check.
+  (about 7.5e-9, at the level of fp32 rounding), on A100 40 GB, A100 80 GB and H100 GPUs. A deliberately wrong
+  version that sums the processes' losses instead of averaging them failed the check.
 - **Scaling.** At 4 GPUs, a 3-million-parameter model reached 86% (A100) and 89% (H100) of ideal weak scaling, and a
   101-million-parameter model 96% and 97%; fixed per-step costs limit the small model. The H100 was 2.0 times as fast
   as the A100 on the larger model and 1.6 times on the small one.
