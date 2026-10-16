@@ -1,3 +1,4 @@
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23426215.svg)](https://doi.org/10.5281/zenodo.23426215)
 ![tests](https://github.com/heykuldip/fusion-at-scale/actions/workflows/tests.yml/badge.svg)
 # fusion-at-scale
 
