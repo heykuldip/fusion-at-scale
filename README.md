@@ -4,7 +4,6 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23426215.svg)](https://doi.org/10.5281/zenodo.23426215)
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](LICENSE)
 [![Release](https://img.shields.io/github/v/release/heykuldip/fusion-at-scale)](https://github.com/heykuldip/fusion-at-scale/releases)
-[![Last Commit](https://img.shields.io/github/last-commit/heykuldip/fusion-at-scale)](https://github.com/heykuldip/fusion-at-scale/commits/main)
 
 Measured checks for training and running activity-recognition models on synchronized video and wearable-sensor data
 across GPUs: whether distributed training is correct and how it scales, how the data are synchronized and loaded, how
